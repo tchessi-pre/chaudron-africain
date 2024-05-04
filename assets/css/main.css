@@ -308,11 +308,11 @@ h6.major {
 }
 
 h1 {
-    font-size: 3.5rem; 
+    font-size: 3.8rem; 
     line-height: 1.3; 
     letter-spacing: 0.5rem;
-    color: #e5ff00; 
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); 
+    color: #ffe203; 
+    text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.5); 
     margin-top: 10px; 
     margin-bottom: 10px; 
     text-align: center; 
@@ -343,7 +343,7 @@ h6 {
 
 @media screen and (max-width: 736px) {
 	h1 {
-		font-size: 1.75rem;
+		font-size: 1.80rem;
 		line-height: 1.4;
 	}
 
@@ -1423,8 +1423,8 @@ body.is-preload #bg:before {
 }
 
 #header .logo img {
-	width: 8rem;
-	height: 8rem;
+	width: 10rem;
+	height: 10rem;
 	/* line-height: 5.5rem; */
 	/* border: solid 1px #ffffff; */
 	border-radius: 100%;
@@ -1554,6 +1554,25 @@ body.is-article-visible #header {
 	opacity: 0;
 }
 
+/* Styles pour la section Galerie */
+#gallery {
+    margin-top: 0px; /* Marge supérieure pour espacer la galerie des autres contenus */
+}
+
+/* Styles pour les images de la galerie */
+#gallery .image {
+    display: block;
+    margin-bottom: 20px; /* Marge inférieure entre chaque image */
+}
+
+/* Styles pour les descriptions des images */
+#gallery p {
+    text-align: center; /* Centrer le texte */
+    font-style: italic; /* Style italic pour les descriptions */
+    color: #ffffff; /* Couleur de texte grise */
+}
+
+
 body.is-preload #header {
 	-moz-filter: blur(0.125rem);
 	-webkit-filter: blur(0.125rem);
@@ -1589,9 +1608,9 @@ body.is-preload #header .content .inner {
 	}
 
 	#header .logo {
-		width: 8rem;
-		height:	 8rem;
-		line-height: 4.75rem;
+		width: 10rem;
+		height:	 10rem;
+		/* line-height: 4.75rem; */
 	}
 
 	#header .logo .icon:before {
